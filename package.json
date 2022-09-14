@@ -1,0 +1,13 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "scss": "yarn sass --no-source-map --watch index.scss:index.css"
+  },
+  "dependencies": {
+    "sass": "^1.54.9"
+  }
+}
